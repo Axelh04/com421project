@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.Title {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
+.Title ul {
+    text-align: left;
+}
+
+body {
+    background-color:none;
+    height: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:0;
+    border: 0;
+    width: fit-content;
+  }
+
+.navbar {
+  background-color: skyblue;
+  border-color: black;
+  border-radius: 20px;
+  border-width: 50px;
+  position:static;
+  width: 90% ;
+  z-index: 999;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar2 {
+    background-color: rgb(60, 164, 205);
+    border-color: black;
+    border-radius: 20px;
+    border-width: 50px;
+    position:fixed;
+    width: 60% ;
+    z-index: 999;
+    overflow: hidden;
+    padding: 10px; 
+    align-content: center;
+}
+
+.navbar ul, .navbar2 ul {
+    margin-top: -2%;
+    margin-bottom: -2%;
+    padding: 0;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 80px;
+  }
+
+  .navbar li, .navbar2 li {
+    margin: 0 10px;
+  }
+
+.navbar a, .navbar2 a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    transition: color 4s ease-in-out;
+    font-family:'Times New Roman', Times, serif
+}
