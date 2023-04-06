@@ -28,11 +28,11 @@ body {
   border-radius: 20px;
   border-width: 50px;
   position:static;
-  width: 90% ;
   z-index: 999;
   overflow: hidden;
   padding: 10px;
-  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .navbar2 {
@@ -40,12 +40,14 @@ body {
     border-color: black;
     border-radius: 20px;
     border-width: 50px;
-    position:fixed;
+    position:static;
     width: 60% ;
     z-index: 999;
     overflow: hidden;
     padding: 10px; 
     align-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .navbar ul, .navbar2 ul {
