@@ -2,18 +2,31 @@
     display: none;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 .Title {
-    background-color: whitesmoke;
+    background-color:none;
     padding: 20px;
     text-align: center;
     align-content: center;
-}
-.Title ul {
-    text-align: left;
+    margin-left: 2%;
+    margin-right:2%;
 }
 
+.Title3 {
+  background-color: none;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  margin-left: 25%;
+  margin-right:2%;
+}
+
+
 body {
-    background-color:none;
+    background-color: whitesmoke;
     height: 100%;
     margin-right: 0px;
     margin-left: 0px;
@@ -31,25 +44,30 @@ li {
 }
 
 .module {
-  margin-left: 20%;
+  margin-left: 22%;
   margin-right:2%;
+}
+
+.wrapNavbar {
+  margin-top: .5%;
 }
 
 .navbar {
   background-color: rgb(179, 219, 255);
   position:static;
   overflow:auto;
-  padding: 15px;;
+  padding: 10px;;
   width:100%;
 }
 
 .navbar2 {
   background-color: rgb(0, 102, 190);
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   width: 100%;
   position: sticky;
   top: 0px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1)
 }
 
 .navbar ul, .navbar2 ul {
@@ -77,15 +95,22 @@ li {
 
 .navbar2 a{
   text-decoration:none;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   font-size: 20px;
   font-weight: bolder;
   letter-spacing: -1px;
 }
 
-.navbar a:hover, .navbar2 a:hover {
-  color: rgb(255, 255, 255);
+.navbar a:hover{
+  color: rgb(0, 102, 190);
+  font-size: xx-large;
+  text-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar2 a:hover {
+  color: rgb(194, 227, 255);
   font-size: x-large;
+  text-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a.active {
@@ -95,16 +120,108 @@ li {
 
 .sidebar {
   position: absolute;
-  left: 0;
+  left: 2%;
   right: 80%;
-  background-color: blueviolet;
+  background-color: rgb(255, 255, 153);
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  transition: transform .2s;
 }
 
-.sidebar p{
+.sidebarTitle3 {
+  position: absolute;
+  left: 2%;
+  right: 77%;
+  background-color: rgb(255, 255, 153);
+  padding: 20px;
+  border-radius: 30px;
+  top: 2%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: transform .2s;
+}
+
+.sidebar p, .sidebar li{
   float: left;
-
+  font-weight: lighter;
+  font-size: small;
 }
 
-img {
+.sidebarTitle3 li, .sidebarTitle3 p{
+  float: left;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.sidebar:hover, .sidebarTitle3:hover {
+  transform: scale(1.25) translateX(20px);
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  max-width: fit-content;
+}
+
+.caption {
   text-align:center;
 }
+
+.section1, .section2, .section3, .section4, .section5, .section6, .end {
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(aliceblue,rgb(170, 215, 255));
+  scroll-margin-top: 100px;
+  transition: transform 2s;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .end {
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  /* background-image: linear-gradient(aliceblue,rgb(170, 215, 255)); */
+  scroll-margin-top: 100px;
+  transition: transform 1s;
+}
+
+.section1:hover, .section2:hover, .section3:hover, .section4:hover, .section5:hover, .section6:hover, .end:hover {
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(aliceblue,rgb(170, 215, 255)); 
+  scroll-margin-top: 100px;
+}
+
+/* .section1 {
+  background-image: linear-gradient(aliceblue,rgb(255, 251, 141));
+}
+
+.section2 {
+  background-image: linear-gradient(aliceblue,rgb(255, 185, 141));
+}
+
+.section3 {
+  background-image: linear-gradient(aliceblue,rgb(183, 255, 141));}
+
+.section4 {
+  background-image: linear-gradient(aliceblue,rgb(141, 255, 242));}
+
+.section5 {
+  background-image: linear-gradient(aliceblue,rgb(221, 141, 255));}
+
+.section6 {
+  background-image: linear-gradient(aliceblue,rgb(255, 141, 185));}
+
+.end {
+  background-image: linear-gradient(aliceblue,rgb(255, 141, 141));
+} */
