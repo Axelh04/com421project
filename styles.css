@@ -181,7 +181,7 @@ li, dt {
 .sidebarTitle3 li, .sidebarTitle3 p{
   float: left;
   font-weight: lighter;
-  font-size: small;
+  font-size: 11px
 }
 
 .sidebar:hover, .sidebarTitle3:hover {
