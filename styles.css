@@ -35,11 +35,11 @@ body {
     width:100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-p {
+p, dd {
   font-size: larger;
 }
 
-li {
+li, dt {
   font-size: larger;
 }
 
