@@ -77,21 +77,21 @@
                 <li>Each variable name must be different from other variable names.</li>
                 <li>The first variable (in column A) is a <b>unique identifier.</b></li>
                 <li>Variable names must start with a letter (not numbers or special characters), so change <i>4tutorial_types</i> to <i>tutorial_types.</i></li>
-                <li>Name variables so that they are intuitive to you. Therefore, change use and useful to perc_ease_of_use and perc_usefulness, respectively.</li>
-                <li>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to Perceived Usefulness and Column G refers to Perceived Ease of Use.</li>   
+                <li>Name variables so that they are intuitive to you. Therefore, change <i>use</i> and <i>useful</i> to <i>perc_ease_of_use</i> and <i>perc_usefulness</i>, respectively.</li>
+                <li>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to <i>Perceived Usefulness</i> and Column G refers to <i>Perceived Ease of Use.</i></li>   
             </ol>
 
             <!--INSERT IMAGE-->
             <div class = "img">
                 <img src="images/datalesson_fig3.png">
                 </div>
-                <p class="caption">Figure 1. Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables</p>
+                <p class="caption"><i><b>Figure 1.</b> Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables</i></p>
                 
             <p>Data values, or rows, have been input for each subject in the experiment.</p>
             <ol>
-                <li>Decide on input conventions and stick to them. In gender, change the "female" value to "F".</li>
-                <li>Separate data into component values whenever possible by adding new columns. For example, tasks_completed values (Y/Y/N) can be broken up into three components. So, add columns task1, task2, and task3, and reformat values appropriately.</li>
-                <li>Double-check to ensure no data entry errors have been made, then delete the old tasks_completed column.</li>
+                <li>Decide on input conventions and stick to them. In <i>gender</i>, change the "female" value to "F".</li>
+                <li>Separate data into component values whenever possible by adding new columns. For example, <i>tasks_completed</i> values (Y/Y/N) can be broken up into three components. So, add columns <i>task1</i>, <i>task2</i>, and <i>task3</i>, and reformat values appropriately.</li>
+                <li>Double-check to ensure no data entry errors have been made, then delete the old <i>tasks_completed</i> column.</li>
                 <li>Your Raw_Dataset spreadsheet should now look like Figure 2.</li>
             </ol>
 
@@ -99,7 +99,7 @@
             <div class = "img">
                 <img src="images/datalesson_fig2.png">
                 </div>
-                <p class="caption">Figure 2. Values for each variable are entered in a consistent format</p>
+                <p class="caption"><i><b>Figure 2.</b> Values for each variable are entered in a consistent format</i></p>
              
                 <!--SIDEBAR-->
                 <section class = "sidebar">
@@ -107,12 +107,12 @@
                     <p><b>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values dichotomous, which gives the researcher maximum flexibility in testing for relationships or correlations.</b></p>
                 </section>
 
-            <p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values dichotomous, which gives the researcher maximum flexibility in testing for relationships or correlations.</p>
+            <p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values <b>dichotomous</b>, which gives the researcher maximum flexibility in testing for relationships or correlations.</p>
 
 
             <ol>
                 <li>Copy the Raw_Dataset values into the Sheet2 tab. Rename this sheet Formatted_Data.</li>
-                <li>In the Formatted_Data sheet, add new columns with Insert > Columns for each distinct value in categorical data columns (tutorial_types, gender, exp_level, task1, task2, and task3). You do not have to add a new column for task1, task2, and task3 because their values are already dichotomous.</li>
+                <li>In the Formatted_Data sheet, add new columns with <b>Insert > Columns</b> for each distinct value in categorical data columns <b>(tutorial_types, gender, exp_level, task1, task2, and task3)</b>. You do not have to add a new column for task1, task2, and task3 because their values are already dichotomous.</li>
                 <li>Rename columns according to each possible categorical value. Copy and paste the values from the original column.</li>
                 <li>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: <b>Edit > Replace.</b></li>
                 <li>Your Formatted_Data spreadsheet should now look like Figure 3.</li>
@@ -133,26 +133,25 @@
             <!--SIDEBAR-->
               <section class = "sidebar">
                 <h3><b>Why?</b></h3>
-                <p><b>Analyzing descriptive statistics may lead you to ask new questions. For example, perc_enjoy is much higher on average than perc_usefulness, which also has a large variance. This suggests that a segment of users may not have considered the system useful even though they enjoyed using it.</b></p>
+                <p><b>Analyzing descriptive statistics may lead you to ask new questions. For example, <i>perc_enjoy</i> is much higher on average than <i>perc_usefulness</i>, which also has a large variance. This suggests that a segment of users may not have considered the system useful even though they enjoyed using it.</b></p>
             </section>
 
 
-            <p>Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. If necessary, rearrange columns so that data requiring summary, those with continuous values, are adjacent. (In the spreadsheet, the continuous values of perc_enjoy, perc_usefulness, and perc_ease_of_use are already adjacent.)
-                Write down the "input range" (i.e. H2:J26) of the data requiring summary, making sure not to include variable labels.
-                </p>
+            <p>Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. If necessary, rearrange columns so that data requiring summary, those with continuous values, are adjacent. (In the spreadsheet, the <b>continuous</b> values of <i>perc_enjoy, perc_usefulness,</i> and <i>perc_ease_of_use</i> are already adjacent.)</p>
+            <p>Write down the "input range" (i.e. H2:J26) of the data requiring summary, making sure not to include variable labels.</p>
             <ol>
                 <li>Go to <b>Tools > Add-Ins...</b> and make sure <b>Analysis ToolPak</b> is checked. Click OK.</li>
                 <li>Go to <b>Tools > Data Analysis</b> and select <b>Descriptive Statistics.</b> Click OK.</li>
                 <li>Enter the input range in the blank and check <b>Summary Statistics.</b> Click OK.</li>
             </ol>
-            <p>The descriptive statistics summary will output in a new sheet. Rename this spreadsheet Descriptive_Stats. Label the output according to the variables. For example, Column 1 should be perc_enjoy. Your Descriptive_Stats spreadsheet should now look like Figure 4.
-                Analyzing descriptive statistics is a great way to start appraising a dataset before running inferential statistics. What insights about the dataset can you glean from the summary statistics for perc_usefulness and perc_ease_of_use?</p>
+            <p>The descriptive statistics summary will output in a new sheet. Rename this spreadsheet Descriptive_Stats. Label the output according to the variables. For example, <i>Column 1</i> should be <i>perc_enjoy</i>. Your Descriptive_Stats spreadsheet should now look like Figure 4.
+                Analyzing descriptive statistics is a great way to start appraising a dataset before running inferential statistics. What insights about the dataset can you glean from the summary statistics for <i>perc_usefulness</i> and <i>perc_ease_of_use</i>?</p>
 
             <!--INSERT IMAGE-->
             <div class = "img">
                 <img src="images/datalesson_fig4.png">
                 </div>
-                <p class="caption">Figure 4. Excel will not run descriptive statistics with non-numeric characters, so the variable labels must be re-entered</p>
+                <p class="caption"><i><b>Figure 4.</b> Excel will not run descriptive statistics with non-numeric characters, so the variable labels must be re-entered</i></p>
              
             
             
@@ -163,12 +162,12 @@
             <h2>Run inferential statistics</h2>
             <p>Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial.)</p>
             <ol>
-                <li>When PASW starts, it will prompt you for a data source. Select Open an existing data source > More Files...</li>
+                <li>When PASW starts, it will prompt you for a data source. Select <b>Open an existing data source > More Files...</b></li>
                 <li>Set the file type to Excel, then find and open the file.</li>
                 <li>From the list, select the Formatted_Data worksheet. Click OK. You should now see the dataset.</li>
             </ol>
-            <p>The most commonly used statistical methods and tests are found under the Analyze menu in the standard toolbar.</p>
-            <p>Figure 5 shows where to find some common statistical methods and tests. Under PASW's Analyze menu, see if you can also find the following:</p>
+            <p>The most commonly used statistical methods and tests are found under the <b>Analyze</b> menu in the standard toolbar.</p>
+            <p>Figure 5 shows where to find some common statistical methods and tests. Under PASW's <b>Analyze</b> menu, see if you can also find the following:</p>
             <ol>
                 <li>Wilcoxon-Mann-Whitney test</li>
                 <li>Simple linear regression</li>
@@ -179,15 +178,15 @@
             <div class = "img">
                 <img src="images/datalesson_fig5.png">
                 </div>
-                <p class="caption">Figure 5.  Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications</p>
+                <p class="caption"><i><b>Figure 5.</b> Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications</i></p>
              
             <!--SIDEBAR-->
             <section class = "sidebar">
                 <h3><b>Stuck?</b></h3>
-                <p><b>Consult UCLA's Choosing the Correct Statistic to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.</b></p>
+                <p><b>Consult <a href="http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.htm">UCLA's <i>Choosing the Correct Statistic</i></a> to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.</b></p>
             </section>
 
-            <p>Use your prior knowledge or the Choosing the Correct Statistic resource to determine which statistic to run to find whether there is a significant difference in perc_usefulness between free_play and other tutorial types.</p>
+            <p>Use your prior knowledge or the<a href="http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.htm"><i>Choosing the Correct Statistic</i></a> resource to determine which statistic to run to find whether there is a significant difference in perc_usefulness between free_play and other tutorial types.</p>
 
             <p>You should have determined that the Kruskal-Wallis one-way analysis of variance is the appropriate test. Go to <b>Analyze > Nonparametric Tests > K Independent Samples...</b> A new window will open prompting you to select the variables (by column name) to be tested.</p>
             <ol>
@@ -199,7 +198,7 @@
             <div class = "img">
                 <img src="images/datalesson_fig6.png">
                 </div>
-                <p class="caption">Figure 6. For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected</p>
+                <p class="caption"><i><b>Figure 6.</b> For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected</i></p>
              
             <p>Click OK to display the statistical analysis results to new viewing window. Your results screen should look like Figure 7. Because statistical analysis output contains many numerical components (some of which must be cited in formal reports), it is a good idea to save it to a format independent of the PASW software. To save the results, go to <b>File > Export.</b> Change Document Type to the desired output format (Word, Excel, PDF, etc.), then click OK.</p>
             
@@ -207,9 +206,7 @@
             <div class = "img">
                 <img src="images/datalesson_fig7.png">
                 </div>
-                <p class="caption">Figure 7. PASW allows users to export statistics to common document types</p>
-             
-
+                <p class="caption"><i><b>Figure 7.</b> PASW allows users to export statistics to common document types</i></p>
         </div>
 
         <div id = "end" class  = "end">
